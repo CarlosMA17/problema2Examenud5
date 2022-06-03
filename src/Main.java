@@ -35,7 +35,7 @@ public class Main {
                     break;
                 case 3:
                     String impresion = libro.toString();
-                    libro.eliminarGasto();
+                    libro.mostrarGastosYBorrar();
                     System.out.println(impresion);
                     break;
                 case 4:

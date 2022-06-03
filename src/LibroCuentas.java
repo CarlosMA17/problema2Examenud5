@@ -27,4 +27,14 @@ public class LibroCuentas {
         }
     }
 
+    public void mostrarGastosYBorrar() {
+        for (int i = 0; i < gastos.size(); i++) {
+            for (int j = 0; j < gastos.size(); j++) {
+                int sumaFinal = gastos.importe.get(j);
+            }
+            System.out.println(gastos.get(i));
+            gastos.remove(0);
+        }
+    }
+
 }
